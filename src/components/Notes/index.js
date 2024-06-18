@@ -101,7 +101,7 @@ function Notes() {
     if (date) {
       const dateWithoutMilliseconds = date.split('.')[0];
       const parsedDate = new Date(dateWithoutMilliseconds);
-      return `${parsedDate.toLocaleDateString('es-MX')} ${parsedDate.toLocaleTimeString('es-MX')}`;
+      return `${parsedDate.toLocaleDateString('en-US')} ${parsedDate.toLocaleTimeString('es-MX')}`;
     }
     return '';
   };
