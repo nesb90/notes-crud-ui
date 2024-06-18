@@ -1,0 +1,33 @@
+const operations = {
+  CREATE: 'CREATE',
+  UPDATE: 'UPDATE'
+};
+
+const FILTERS = {
+  RECEIVED: 'Recibidas',
+  PROCESSING: 'Procesando',
+  CANCELLED: 'Canceladas',
+  COMPLETED: 'Completadas'
+};
+
+const TRANSLATED_ORDER_STATUSES = {
+  RECEIVED: 'RECIBIDA',
+  PROCESSING: 'PROCESANDO_ORDEN',
+  CANCELLED: 'ORDEN_CANCELADA',
+  COMPLETED: 'ORDEN_COMPLETADA'
+};
+
+const ORDER_STATUSES = {
+  RECEIVED: 'RECEIVED',
+  PROCESSING: 'PROCESSING',
+  CANCELLED: 'CANCELLED',
+  COMPLETED: 'COMPLETED'
+};
+
+
+module.exports = {
+  operations,
+  FILTERS,
+  ORDER_STATUSES,
+  TRANSLATED_ORDER_STATUSES
+};
